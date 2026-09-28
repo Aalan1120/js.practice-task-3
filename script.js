@@ -326,8 +326,8 @@ for (let fruit of fruits) {
 
 let person = {
     name: "Aalan",
-    role: "Developer",
-    experience: 2
+    role: "Front End Developer",
+    experience: "0 Years"
 };
 for (let key in person) {
     console.log(key + ":", person[key]);
