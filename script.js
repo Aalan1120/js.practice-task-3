@@ -26,7 +26,6 @@ console.log(a); // true
 let a = (10 > 5 && 20 > 15) || !(5 > 10);
 console.log(a); // true
 
-
 // Ternary Operator
 
 // 9. Age eligibility
@@ -48,7 +47,6 @@ console.log(number % 2 === 0 ? "Even" : "Odd");
 // 13. Salary
 let salary = 35000;
 console.log(salary > 30000 ? "Good Salary" : "Low Salary");
-
 
 // Concatenation & Template Strings
 
@@ -80,7 +78,6 @@ let name = "Aalan";
 let age = 24;
 let city = "Neyveli";
 console.log(`My name is ${name}, I am ${age} years old, and I live in ${city}.`);
-
 
 // Type Casting — Implicit
 
@@ -127,7 +124,6 @@ console.log(a, typeof a); // 510 string
 console.log(b, typeof b); // 11 number
 console.log(c, typeof c); // 10 number
 
-
 // Type Casting — Explicit
 
 // 27. String to Number
@@ -170,7 +166,6 @@ console.log(Boolean([])); // true
 
 // 38. Object to Boolean
 console.log(Boolean({})); // true
-
 
 // Conditional Statements
 
@@ -234,9 +229,7 @@ if (age >= 18) {
     }
 }
 
-
 // Switch Statement
-
 
 // 45. Traffic Light
 let trafficlight = "red";
@@ -298,9 +291,7 @@ switch (choice47) {
         console.log("Invalid choice");
 }
 
-
 // Loops
-
 
 // 48. for loop: 1 to 10
 for (let i = 1; i <= 10; i++) {
